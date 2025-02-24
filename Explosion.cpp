@@ -26,7 +26,7 @@ void debugMousePos() {
 
 void showMessage() {
 	if (IsKeyDown(KEY_SPACE)) {
-		DrawText("Welcome To My Game, Suckers !!!!", 18, GetScreenHeight() - 30, 20, GOLD);
+		DrawText("All your base are belong to us, Suckers !!!!", 18, GetScreenHeight() - 30, 20, GOLD);
 		DrawFPS(10, 10);
 	}
 }
